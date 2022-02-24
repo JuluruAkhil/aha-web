@@ -4,19 +4,21 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react"
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import "swiper/css/bundle"
-import { apiurl } from "../../utils/config"
-import { useGetWidth } from "../../utils/hooks"
+// import { apiurl } from "../../utils/config"
+import { useWindowSize } from "../../utils/hooks"
+import { getData } from "../../utils/data"
 
 function Carousel() {
   const [items, setItems] = useState({ loading: true, data: [] })
-  const [width] = useGetWidth()
-
-  console.log(width)
+  const { width } = useWindowSize()
 
   useEffect(() => {
-    fetch(`${apiurl}/carousel`)
-      .then((res) => res.json())
-      .then((data) => setItems({ loading: false, data }))
+    // fetch(`${apiurl}/carousel`)
+    //   .then((res) => res.json())
+    //   .then((data) => setItems({ loading: false, data }))
+
+    const data = getData()
+    setItems({ data: data.carousel, loading: false })
   }, [])
 
   return (
@@ -35,7 +37,7 @@ function Carousel() {
           items.data.map((item) => (
             <SwiperSlide key={item.img_url}>
               <img
-                className="object-cover bg-center rounded-lg"
+                className="object-cover bg-center rounded-lg md:rounded-b-lg md:rounded-t-none"
                 src={width >= 850 ? item.img.browser_url : item.img.mobile_url}
                 alt={"Carousel item"}
                 layout="fill"

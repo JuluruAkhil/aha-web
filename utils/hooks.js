@@ -21,19 +21,23 @@ export const useIfScroll = () => {
   return [isScrolling]
 }
 
-export const useGetWidth = () => {
-  const [width, setWidth] = useState(0)
-  const handleResize = () => {
-    setWidth(window.innerWidth)
-  }
-
+export function useWindowSize() {
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  })
   useEffect(() => {
-    window.addEventListener("resize", handleResize, { passive: true })
-
-    return () => {
-      window.removeEventListener("resize", handleResize)
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      })
     }
+    window.addEventListener("resize", handleResize)
+    handleResize()
+
+    return () => window.removeEventListener("resize", handleResize)
   }, [])
 
-  return [width]
+  return windowSize
 }

@@ -4,12 +4,12 @@ import { useIfScroll } from "../utils/hooks"
 import HeaderLaptop from "./HeaderLaptop"
 import HeaderMobile from "./HeaderMobile"
 import MobileNav from "./MobileNav"
-import { useGetWidth } from "../utils/hooks"
+import { useWindowSize } from "../utils/hooks"
 
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter()
   const [isScrolling] = useIfScroll()
-  const [width] = useGetWidth()
+  const { width } = useWindowSize()
 
   return (
     <div className="bg-background-page h-full">
