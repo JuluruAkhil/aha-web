@@ -45,7 +45,8 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: "DJ Events | Find the hottest parties",
-  description: "Find the latest DJ and other musical events",
-  keywords: "music, dj, edm, events",
+  title: "Watch Online Movies | South Indian movies & web series | aha",
+  description:
+    "Watch unlimited online movies across various genres and languages. Stream movies online from our wide range of latest movies. Always HD and ad-free exclusively on aha",
+  keywords: "movies, tv, series, shows",
 }
