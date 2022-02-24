@@ -24,12 +24,24 @@ function Carousel() {
         className="relative"
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop="true"
+        spaceBetween={30}
       >
         <PrevArrow />
         {!items.loading &&
           items.data.map((item) => (
             <SwiperSlide key={item.img_url}>
-              <img src={item.img_url} alt={"Carousel item"} layout="fill"></img>
+              <img
+                className="hidden lg:block object-cover bg-center rounded-lg"
+                src={item.img.browser_url}
+                alt={"Carousel item"}
+                layout="fill"
+              ></img>
+              <img
+                className="lg:hidden object-cover bg-center rounded-lg"
+                src={item.img.mobile_url}
+                alt={"Carousel item"}
+                layout="fill"
+              ></img>
             </SwiperSlide>
           ))}
         <NextArrow />

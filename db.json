@@ -1,39 +1,66 @@
 {
   "carousel": [
     {
-      "img_url": "https://image-resizer-cloud-api.akamaized.net/image/1005A59D-1135-47CC-8D90-BC159AB46C23/0-3x1.jpg?width=1366",
+      "img": {
+        "browser_url": "https://image-resizer-cloud-api.akamaized.net/image/1005A59D-1135-47CC-8D90-BC159AB46C23/0-3x1.jpg?width=1366",
+        "mobile_url": "https://image-resizer-cloud-api.akamaized.net/image/1005A59D-1135-47CC-8D90-BC159AB46C23/0-16x9.jpg?width=834"
+      },
       "link_to": "/"
     },
     {
-      "img_url": "https://image-resizer-cloud-api.akamaized.net/image/E9F0C2E9-23AA-4971-8C58-35BCE28AE822/0-3x1.jpg?width=1366",
+      "img": {
+        "browser_url": "https://image-resizer-cloud-api.akamaized.net/image/E9F0C2E9-23AA-4971-8C58-35BCE28AE822/0-3x1.jpg?width=1366",
+        "mobile_url": "https://image-resizer-cloud-api.akamaized.net/image/E9F0C2E9-23AA-4971-8C58-35BCE28AE822/0-16x9.jpg?width=834"
+      },
       "link_to": "/"
     },
     {
-      "img_url": "https://image-resizer-cloud-api.akamaized.net/image/72DD3211-3D3E-4911-92E6-48132F335F5A/0-3x1.jpg?width=1366",
+      "img": {
+        "browser_url": "https://image-resizer-cloud-api.akamaized.net/image/72DD3211-3D3E-4911-92E6-48132F335F5A/0-3x1.jpg?width=1366",
+        "mobile_url": "https://image-resizer-cloud-api.akamaized.net/image/72DD3211-3D3E-4911-92E6-48132F335F5A/0-16x9.jpg?width=834"
+      },
       "link_to": "/"
     },
     {
-      "img_url": "https://image-resizer-cloud-api.akamaized.net/image/EB4BD663-2939-446A-954D-1E5B0D74A0E4/0-3x1.jpg?width=1366",
+      "img": {
+        "browser_url": "https://image-resizer-cloud-api.akamaized.net/image/EB4BD663-2939-446A-954D-1E5B0D74A0E4/0-3x1.jpg?width=1366",
+        "mobile_url": "https://image-resizer-cloud-api.akamaized.net/image/EB4BD663-2939-446A-954D-1E5B0D74A0E4/0-16x9.jpg?width=834"
+      },
       "link_to": "/"
     },
     {
-      "img_url": "https://image-resizer-cloud-api.akamaized.net/image/4BAD80A8-8D00-4010-B9E3-02F257B86B74/0-3x1.jpg?width=1366",
+      "img": {
+        "browser_url": "https://image-resizer-cloud-api.akamaized.net/image/4BAD80A8-8D00-4010-B9E3-02F257B86B74/0-3x1.jpg?width=1366",
+        "mobile_url": "https://image-resizer-cloud-api.akamaized.net/image/4BAD80A8-8D00-4010-B9E3-02F257B86B74/0-16x9.jpg?width=834"
+      },
       "link_to": "/"
     },
     {
-      "img_url": "https://image-resizer-cloud-api.akamaized.net/image/37BA7292-BFA6-4B9E-8B08-9714B147136A/0-3x1.jpg?width=1366",
+      "img": {
+        "browser_url": "https://image-resizer-cloud-api.akamaized.net/image/37BA7292-BFA6-4B9E-8B08-9714B147136A/0-3x1.jpg?width=1366",
+        "mobile_url": "https://image-resizer-cloud-api.akamaized.net/image/37BA7292-BFA6-4B9E-8B08-9714B147136A/0-16x9.jpg?width=834"
+      },
       "link_to": "/"
     },
     {
-      "img_url": "https://image-resizer-cloud-api.akamaized.net/image/6084EFE0-5386-4113-9D37-3EC5C7FE9361/0-3x1.jpg?width=1366",
+      "img": {
+        "browser_url": "https://image-resizer-cloud-api.akamaized.net/image/6084EFE0-5386-4113-9D37-3EC5C7FE9361/0-3x1.jpg?width=1366",
+        "mobile_url": "https://image-resizer-cloud-api.akamaized.net/image/6084EFE0-5386-4113-9D37-3EC5C7FE9361/0-16x9.jpg?width=834"
+      },
       "link_to": "/"
     },
     {
-      "img_url": "https://image-resizer-cloud-api.akamaized.net/image/AE9D806A-5950-4F13-8FAD-1CFF2AD7DABF/0-3x1.jpg?width=1366",
+      "img": {
+        "browser_url": "https://image-resizer-cloud-api.akamaized.net/image/AE9D806A-5950-4F13-8FAD-1CFF2AD7DABF/0-3x1.jpg?width=1366",
+        "mobile_url": "https://image-resizer-cloud-api.akamaized.net/image/AE9D806A-5950-4F13-8FAD-1CFF2AD7DABF/0-16x9.jpg?width=834"
+      },
       "link_to": "/"
     },
     {
-      "img_url": "https://image-resizer-cloud-api.akamaized.net/image/082F82D4-9E62-4B95-AC33-97FA05F16989/0-3x1.jpg?width=1366",
+      "img": {
+        "browser_url": "https://image-resizer-cloud-api.akamaized.net/image/082F82D4-9E62-4B95-AC33-97FA05F16989/0-3x1.jpg?width=1366",
+        "mobile_url": "https://image-resizer-cloud-api.akamaized.net/image/082F82D4-9E62-4B95-AC33-97FA05F16989/0-16x9.jpg?width=834"
+      },
       "link_to": "/"
     }
   ]
