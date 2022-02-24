@@ -30,7 +30,7 @@ function Carousel() {
         className="relative"
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop="true"
-        // spaceBetween={30}
+        spaceBetween={20}
       >
         {width >= 850 && <PrevArrow />}
         {!items.loading &&

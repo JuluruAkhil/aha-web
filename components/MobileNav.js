@@ -3,7 +3,7 @@ import React from "react"
 function MobileNav() {
   return (
     <div className="fixed bottom-0 inset-x-0 w-screen bg-gradient-to-b from-[#3b4046] to-[#2d3037] rounded-tl-3xl rounded-tr-3xl">
-      <div className="flex items-center justify-between px-24 py-2 font-extralight text-[#7f7e86] text-xs tracking-tighter">
+      <div className="flex items-center justify-between px-14 md:px-24 py-2 font-extralight text-[#7f7e86] text-xs tracking-tighter">
         <div className="flex flex-col justify-center items-center space-y-1">
           <svg
             _ngcontent-serverApp-c63=""

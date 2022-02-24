@@ -28,7 +28,7 @@ function HeaderMobile() {
           alt={"language select"}
         />
       </div>
-      <div className="row-start-2 col-span-2 flex items-center justify-between text-sm font-medium tracking-tight px-8 grow">
+      <div className="row-start-2 col-span-2 flex items-center justify-between text-sm font-medium tracking-tight px-2 md:px-8 grow">
         <Link href="/">
           <a
             className={
