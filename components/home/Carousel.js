@@ -5,9 +5,13 @@ import { useEffect, useState } from "react"
 import Image from "next/image"
 import "swiper/css/bundle"
 import { apiurl } from "../../utils/config"
+import { useGetWidth } from "../../utils/hooks"
 
 function Carousel() {
   const [items, setItems] = useState({ loading: true, data: [] })
+  const [width] = useGetWidth()
+
+  console.log(width)
 
   useEffect(() => {
     fetch(`${apiurl}/carousel`)
@@ -24,27 +28,21 @@ function Carousel() {
         className="relative"
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop="true"
-        spaceBetween={30}
+        // spaceBetween={30}
       >
-        <PrevArrow />
+        {width >= 850 && <PrevArrow />}
         {!items.loading &&
           items.data.map((item) => (
             <SwiperSlide key={item.img_url}>
               <img
-                className="hidden lg:block object-cover bg-center rounded-lg"
-                src={item.img.browser_url}
-                alt={"Carousel item"}
-                layout="fill"
-              ></img>
-              <img
-                className="lg:hidden object-cover bg-center rounded-lg"
-                src={item.img.mobile_url}
+                className="object-cover bg-center rounded-lg"
+                src={width >= 850 ? item.img.browser_url : item.img.mobile_url}
                 alt={"Carousel item"}
                 layout="fill"
               ></img>
             </SwiperSlide>
           ))}
-        <NextArrow />
+        {width >= 850 && <NextArrow />}
       </Swiper>
     </div>
   )

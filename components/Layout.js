@@ -3,10 +3,13 @@ import { useRouter } from "next/router"
 import { useIfScroll } from "../utils/hooks"
 import HeaderLaptop from "./HeaderLaptop"
 import HeaderMobile from "./HeaderMobile"
+import MobileNav from "./MobileNav"
+import { useGetWidth } from "../utils/hooks"
 
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter()
   const [isScrolling] = useIfScroll()
+  const [width] = useGetWidth()
 
   return (
     <div className="bg-background-page h-full">
@@ -34,6 +37,8 @@ export default function Layout({ title, keywords, description, children }) {
       {/* {router.pathname === "/" && <Showcase />} */}
 
       <div>{children}</div>
+
+      {width <= 850 && <MobileNav />}
       {/* <Footer /> */}
     </div>
   )

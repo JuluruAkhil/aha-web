@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-export const useIfScroll = (headerHeight) => {
+export const useIfScroll = () => {
   const [isScrolling, setIsScrolling] = useState(false)
   const handleScroll = () => {
     if (window.pageYOffset > 0) {
@@ -19,4 +19,21 @@ export const useIfScroll = (headerHeight) => {
   }, [])
 
   return [isScrolling]
+}
+
+export const useGetWidth = () => {
+  const [width, setWidth] = useState(0)
+  const handleResize = () => {
+    setWidth(window.innerWidth)
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize, { passive: true })
+
+    return () => {
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [])
+
+  return [width]
 }
