@@ -1,4 +1,75 @@
 {
+  "movies": {
+    "title": "New Releases",
+    "info": [
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      },
+      {
+        "imgUrl": "https://image-resizer-cloud-api.akamaized.net/image/B2C6DF95-B126-4282-8E36-5196DBB9B4DF/0-2x3.jpg?width=160",
+        "premium": true,
+        "title": "sehari",
+        "url": "/"
+      }
+    ]
+  },
   "carousel": [
     {
       "img": {
